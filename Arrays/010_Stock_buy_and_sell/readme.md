@@ -112,7 +112,3 @@ Output: 0
 ```
 
 ---
-
-👉 This way, you now have **both approaches explained, coded, and compared** (same style as before).
-
-Do you want me to also add **dry-run step-by-step walkthrough** (like we did earlier) for the **efficient solution** with an example? That way, it will be crystal clear for interviews.
