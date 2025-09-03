@@ -16,3 +16,19 @@ def max_profit_naive(arr, start, end):
 
 max_profit = max_profit_naive([1, 5, 3, 8, 12], 0, 5)
 print(max_profit)
+
+# Efficient Approach:
+
+def max_profit_efficient(arr):
+    
+    profit = 0
+    
+    for i in range(1, len(arr)):
+        if arr[i] > arr[i-1]:
+            profit += arr[i] - arr[i-1]
+            
+    return profit
+
+max_profit = max_profit_efficient([1, 5, 3, 8, 12])
+print(max_profit)
+
