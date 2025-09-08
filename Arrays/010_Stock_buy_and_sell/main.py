@@ -1,6 +1,5 @@
 # Naive Approach:
 
-
 def max_profit_naive(arr, start, end):
 
     if end <= start:
